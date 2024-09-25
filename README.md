@@ -103,3 +103,60 @@ Contains essential shared libraries (similar to DLLs in Windows) needed by binar
 . /var/lib: State information, like package databases and service data.
 
 
+
+## Cat command
+. The cat (short for concatenate) command is used to display the contents of a file or combine multiple files. It does not number the lines by default.
+
+Example:
+
+### cat filename.txt
+This is line 1
+
+This is line 2
+
+This is line 3
+
+## nl Command
+
+. The nl (number lines) command is similar to cat but adds line numbers to the output by default.
+
+Example:
+### nl filename.txt
+     1  This is line 1
+     
+     2  This is line 2
+     
+     3  This is line 3
+
+## Key difference
+
+. cat: Displays the file content as is, without line numbers.
+
+. nl: Adds line numbers to each line in the output.
+
+### cat with -n Option
+
+. If you want to number lines using cat, you can use the -n option, which functions similarly to nl.
+
+### cat -n filename.txt
+     1  This is line 1
+     2  This is line 2
+     3  This is line 3
+## Summary:
+. cat filename.txt: Displays file contents without line numbers.
+
+. cat -n filename.txt: Displays file contents with line numbers.
+
+. nl filename.txt: Displays file contents with line numbers by default.
+
+
+
+
+
+
+
+
+
+
+
+
