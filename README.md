@@ -109,24 +109,25 @@ Contains essential shared libraries (similar to DLLs in Windows) needed by binar
 
 Example:
 
-### cat filename.txt
-This is line 1
+    cat filename.txt
+    This is line 
 
-This is line 2
+    This is line 
 
-This is line 3
+    This is line 
 
 ## nl Command
 
 . The nl (number lines) command is similar to cat but adds line numbers to the output by default.
 
 Example:
-### nl filename.txt
-     1  This is line 1
+     ### nl filename.txt
+         
+     1 This is line
      
-     2  This is line 2
+     2 This is line 
      
-     3  This is line 3
+     3 This is line 
 
 ## Key difference
 
@@ -139,9 +140,9 @@ Example:
 . If you want to number lines using cat, you can use the -n option, which functions similarly to nl.
 
 ### cat -n filename.txt
-     1  This is line 1
-     2  This is line 2
-     3  This is line 3
+     1  This is line 
+     2  This is line 
+     3  This is line 
 ## Summary:
 . cat filename.txt: Displays file contents without line numbers.
 
